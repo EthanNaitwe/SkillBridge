@@ -49,6 +49,13 @@ export default function Navbar() {
                 Dashboard
               </span>
             </Link>
+            <Link href="/donate" data-testid="link-donate">
+              <span className={`font-medium cursor-pointer ${
+                isActive("/donate") ? "text-primary" : "text-charcoal hover:text-primary"
+              }`}>
+                Donate
+              </span>
+            </Link>
             <span className="text-charcoal hover:text-primary font-medium cursor-pointer">
               Community
             </span>
@@ -101,6 +108,11 @@ export default function Navbar() {
               <Link href="/dashboard" data-testid="link-mobile-dashboard">
                 <span className="block text-charcoal hover:text-primary font-medium">
                   Dashboard
+                </span>
+              </Link>
+              <Link href="/donate" data-testid="link-mobile-donate">
+                <span className="block text-charcoal hover:text-primary font-medium">
+                  Donate
                 </span>
               </Link>
               <span className="block text-charcoal hover:text-primary font-medium cursor-pointer">

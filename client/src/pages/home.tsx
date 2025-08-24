@@ -41,7 +41,7 @@ export default function Home() {
                 </Link>
                 <Button 
                   variant="outline" 
-                  className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 text-lg font-semibold"
+                  className="border-2 border-white bg-white text-primary hover:bg-gray-100 hover:text-primary px-8 py-4 text-lg font-semibold"
                   data-testid="button-become-mentor"
                 >
                   Become a Mentor
@@ -494,7 +494,7 @@ export default function Home() {
             </Link>
             <Button 
               variant="outline" 
-              className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 text-lg font-semibold"
+              className="border-2 border-white bg-white text-primary hover:bg-gray-100 hover:text-primary px-8 py-4 text-lg font-semibold"
               data-testid="button-teach-with-us"
             >
               Teach with Us

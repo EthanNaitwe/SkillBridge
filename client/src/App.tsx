@@ -9,6 +9,7 @@ import Dashboard from "@/pages/dashboard";
 import Mentors from "@/pages/mentors";
 import Login from "@/pages/login";
 import Signup from "@/pages/signup";
+import Donate from "@/pages/donate";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -20,6 +21,7 @@ function Router() {
       <Route path="/mentors" component={Mentors} />
       <Route path="/login" component={Login} />
       <Route path="/signup" component={Signup} />
+      <Route path="/donate" component={Donate} />
       <Route component={NotFound} />
     </Switch>
   );

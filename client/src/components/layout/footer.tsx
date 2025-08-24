@@ -61,6 +61,11 @@ export default function Footer() {
                   Certifications
                 </a>
               </li>
+              <li>
+                <Link href="/donate" data-testid="link-footer-donate">
+                  <span className="hover:text-secondary cursor-pointer">Support Us</span>
+                </Link>
+              </li>
             </ul>
           </div>
 
