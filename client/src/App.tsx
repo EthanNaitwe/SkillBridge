@@ -10,6 +10,8 @@ import Mentors from "@/pages/mentors";
 import Login from "@/pages/login";
 import Signup from "@/pages/signup";
 import Donate from "@/pages/donate";
+import CreateCourse from "@/pages/create-course";
+import Conferencing from "@/pages/conferencing";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -22,6 +24,8 @@ function Router() {
       <Route path="/login" component={Login} />
       <Route path="/signup" component={Signup} />
       <Route path="/donate" component={Donate} />
+      <Route path="/create-course" component={CreateCourse} />
+      <Route path="/conferencing" component={Conferencing} />
       <Route component={NotFound} />
     </Switch>
   );

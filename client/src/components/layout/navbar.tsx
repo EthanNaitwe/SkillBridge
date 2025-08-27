@@ -49,6 +49,20 @@ export default function Navbar() {
                 Dashboard
               </span>
             </Link>
+            <Link href="/create-course" data-testid="link-create-course">
+              <span className={`font-medium cursor-pointer ${
+                isActive("/create-course") ? "text-primary" : "text-charcoal hover:text-primary"
+              }`}>
+                Create Course
+              </span>
+            </Link>
+            <Link href="/conferencing" data-testid="link-conferencing">
+              <span className={`font-medium cursor-pointer ${
+                isActive("/conferencing") ? "text-primary" : "text-charcoal hover:text-primary"
+              }`}>
+                Conferencing
+              </span>
+            </Link>
             <Link href="/donate" data-testid="link-donate">
               <span className={`font-medium cursor-pointer ${
                 isActive("/donate") ? "text-primary" : "text-charcoal hover:text-primary"
@@ -56,9 +70,6 @@ export default function Navbar() {
                 Donate
               </span>
             </Link>
-            <span className="text-charcoal hover:text-primary font-medium cursor-pointer">
-              Community
-            </span>
           </div>
 
           {/* Auth Buttons */}
@@ -108,6 +119,16 @@ export default function Navbar() {
               <Link href="/dashboard" data-testid="link-mobile-dashboard">
                 <span className="block text-charcoal hover:text-primary font-medium">
                   Dashboard
+                </span>
+              </Link>
+              <Link href="/create-course" data-testid="link-mobile-create-course">
+                <span className="block text-charcoal hover:text-primary font-medium">
+                  Create Course
+                </span>
+              </Link>
+              <Link href="/conferencing" data-testid="link-mobile-conferencing">
+                <span className="block text-charcoal hover:text-primary font-medium">
+                  Conferencing
                 </span>
               </Link>
               <Link href="/donate" data-testid="link-mobile-donate">

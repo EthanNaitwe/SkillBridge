@@ -79,9 +79,14 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-secondary" data-testid="link-create-course">
-                  Create Course
-                </a>
+                <Link href="/create-course" data-testid="link-footer-create-course">
+                  <span className="hover:text-secondary cursor-pointer">Create Course</span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/conferencing" data-testid="link-footer-conferencing">
+                  <span className="hover:text-secondary cursor-pointer">Video Sessions</span>
+                </Link>
               </li>
               <li>
                 <a href="#" className="hover:text-secondary" data-testid="link-mentor-resources">
