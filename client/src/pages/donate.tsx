@@ -50,7 +50,7 @@ export default function Donate() {
             </Button>
             <Button 
               variant="outline" 
-              className="border-2 border-white text-white hover:bg-gray-100 hover:text-primary px-8 py-4 text-lg font-semibold"
+              className="border-2 border-white text-primary hover:bg-gray-100 hover:text-primary px-8 py-4 text-lg font-semibold"
               data-testid="button-learn-more"
             >
               Learn More
