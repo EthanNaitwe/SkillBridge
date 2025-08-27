@@ -130,7 +130,7 @@ export const mockMentors: User[] = [
     password: "password",
     firstName: "Sarah",
     lastName: "Johnson",
-    avatar: "https://images.unsplash.com/photo-1494790108755-2616b332035c?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=200",
+    avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=200",
     role: "mentor",
     bio: "Python Backend Expert with 10 years of experience at Microsoft",
     skills: ["Python", "Django", "AWS"],
