@@ -80,7 +80,7 @@ export default function Conferencing() {
       duration: 60,
       attendees: ["student1@example.com", "student2@example.com"],
       status: "scheduled",
-      meetingUrl: "https://meet.devmentor.com/react-hooks-123"
+      meetingUrl: "https://meet.DevHearts.com/react-hooks-123"
     },
     {
       id: "2", 
@@ -91,7 +91,7 @@ export default function Conferencing() {
       duration: 45,
       attendees: ["student3@example.com", "student4@example.com", "student5@example.com"],
       status: "scheduled",
-      meetingUrl: "https://meet.devmentor.com/python-ds-456"
+      meetingUrl: "https://meet.DevHearts.com/python-ds-456"
     }
   ]);
 

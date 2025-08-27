@@ -1,6 +1,6 @@
 # Overview
 
-DevMentor is a comprehensive mentorship platform that connects senior developers with coding beginners for personalized programming education. The application facilitates course browsing, enrollment, mentor-student interactions, progress tracking, and real-time messaging. Built as a full-stack web application, it provides both learning management and communication tools to enable effective programming education through mentorship.
+DevHearts is a comprehensive mentorship platform that connects senior developers with coding beginners for personalized programming education. The application facilitates course browsing, enrollment, mentor-student interactions, progress tracking, and real-time messaging. Built as a full-stack web application, it provides both learning management and communication tools to enable effective programming education through mentorship.
 
 # User Preferences
 

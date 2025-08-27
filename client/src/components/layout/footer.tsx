@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-bold text-primary mb-4">DevMentor</h3>
+            <h3 className="text-2xl font-bold text-primary mb-4">DevHearts</h3>
             <p className="text-gray-300 mb-4">
               Connecting senior developers with coding beginners for personalized programming education.
             </p>
@@ -130,7 +130,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 DevMentor. All rights reserved.</p>
+          <p>&copy; 2024 DevHearts. All rights reserved.</p>
         </div>
       </div>
     </footer>

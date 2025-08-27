@@ -56,7 +56,7 @@ export default function Signup() {
     onSuccess: (user) => {
       toast({
         title: "Account Created!",
-        description: `Welcome to DevMentor, ${user.firstName}! You can now start learning.`,
+        description: `Welcome to DevHearts, ${user.firstName}! You can now start learning.`,
       });
       setLocation("/dashboard");
     },
@@ -82,11 +82,11 @@ export default function Signup() {
         <div className="text-center mb-8">
           <Link href="/" data-testid="link-home">
             <h1 className="text-3xl font-bold text-primary cursor-pointer hover:opacity-80 mb-2">
-              DevMentor
+              DevHearts
             </h1>
           </Link>
           <h2 className="text-2xl font-bold text-charcoal" data-testid="text-signup-title">
-            Join DevMentor
+            Join DevHearts
           </h2>
           <p className="mt-2 text-gray-600" data-testid="text-signup-subtitle">
             Start your programming journey with expert guidance

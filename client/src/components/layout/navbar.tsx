@@ -21,7 +21,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link href="/" data-testid="link-home">
               <h1 className="text-2xl font-bold text-primary cursor-pointer hover:opacity-80">
-                DevMentor
+                DevHearts
               </h1>
             </Link>
           </div>

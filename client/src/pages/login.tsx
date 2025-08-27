@@ -64,7 +64,7 @@ export default function Login() {
         <div className="text-center">
           <Link href="/" data-testid="link-home">
             <h1 className="text-3xl font-bold text-primary cursor-pointer hover:opacity-80 mb-2">
-              DevMentor
+              DevHearts
             </h1>
           </Link>
           <h2 className="text-2xl font-bold text-charcoal" data-testid="text-login-title">

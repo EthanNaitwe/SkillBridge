@@ -357,7 +357,7 @@ export default function Donate() {
           </div>
 
           <p className="mt-6 text-purple-200 text-sm" data-testid="text-nonprofit">
-            DevMentor is a registered 501(c)(3) nonprofit organization. Your donation is tax-deductible.
+            DevHearts is a registered 501(c)(3) nonprofit organization. Your donation is tax-deductible.
           </p>
         </div>
       </section>
