@@ -53,7 +53,7 @@ export default function Navbar() {
               <span className={`font-medium cursor-pointer ${
                 isActive("/create-course") ? "text-primary" : "text-charcoal hover:text-primary"
               }`}>
-                Create Course
+                Coursecraft
               </span>
             </Link>
             <Link href="/conferencing" data-testid="link-conferencing">
