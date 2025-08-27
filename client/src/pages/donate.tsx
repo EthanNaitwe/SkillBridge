@@ -1,11 +1,13 @@
-import Navbar from "@/components/layout/navbar";
 import Footer from "@/components/layout/footer";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import Navbar from "@/components/layout/navbar";
 import { Badge } from "@/components/ui/badge";
-import { Heart, Users, BookOpen, Trophy, Check, CreditCard, Banknote, Smartphone } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Banknote, BookOpen, Check, CreditCard, Heart, Smartphone, Trophy, Users } from "lucide-react";
+import { useState } from "react";
 
 export default function Donate() {
+  const [selectedOptionId, setSelectedOptionId] = useState(1);
   const impactStats = [
     { icon: Users, value: "10,000+", label: "Students Supported", color: "text-primary" },
     { icon: BookOpen, value: "500+", label: "Free Courses", color: "text-secondary" },
@@ -14,10 +16,10 @@ export default function Donate() {
   ];
 
   const donationOptions = [
-    { amount: 25, description: "Sponsor one student for a month", popular: false },
-    { amount: 50, description: "Support mentor training program", popular: false },
-    { amount: 100, description: "Fund course development", popular: true },
-    { amount: 250, description: "Sponsor a complete learning path", popular: false },
+    { id: 1, amount: 25, description: "Sponsor one student for a month", popular: selectedOptionId === 1 },
+    { id: 2, amount: 50, description: "Support mentor training program", popular: selectedOptionId === 2 },
+    { id: 3, amount: 100, description: "Fund course development", popular: selectedOptionId === 3 },
+    { id: 4, amount: 250, description: "Sponsor a complete learning path", popular: selectedOptionId === 4 },
   ];
 
   const paymentMethods = [
@@ -109,6 +111,7 @@ export default function Donate() {
                   option.popular ? "ring-2 ring-primary border-primary" : ""
                 }`}
                 data-testid={`card-donation-${option.amount}`}
+                onClick={() => setSelectedOptionId(option.id)}
               >
                 {option.popular && (
                   <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-primary text-white">
@@ -277,7 +280,7 @@ export default function Donate() {
                 </p>
                 <div className="flex items-center">
                   <img 
-                    src="https://images.unsplash.com/photo-1494790108755-2616b332035c?ixlib=rb-4.0.3&auto=format&fit=crop&w=50&h=50" 
+                    src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=200" 
                     alt="Student"
                     className="w-10 h-10 rounded-full mr-3"
                   />
